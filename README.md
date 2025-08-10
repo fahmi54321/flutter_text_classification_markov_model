@@ -20,8 +20,8 @@ Fitur utama:
 
 Dataset puisi yang digunakan dalam pelatihan model merupakan kumpulan puisi dari Edgar Allan Poe dan Robert Frost. Kamu dapat menggunakan dataset dummy berikut sebagai contoh:
 
-- [Edgar Allan Poe Dataset (Dummy)](https://example.com/dataset/edgar_allan_poe.txt)
-- [Robert Frost Dataset (Dummy)](https://example.com/dataset/robert_frost.txt)
+- [Edgar Allan Poe Dataset](https://raw.githubusercontent.com/fahmi54321/markov_models_text_classification/refs/heads/main/edgar_allan_poe.txt)
+- [Robert Frost Dataset](https://raw.githubusercontent.com/fahmi54321/markov_models_text_classification/refs/heads/main/robert_frost)
 
 ---
 
@@ -29,24 +29,9 @@ Dataset puisi yang digunakan dalam pelatihan model merupakan kumpulan puisi dari
 
 Backend API yang menjalankan model klasifikasi tersedia di:
 
-- [Poetry Classifier API Repository (Dummy)](https://github.com/username/poetry-classifier-api)
+- [Poetry Classifier API Repository](https://github.com/fahmi54321/markov_models_text_classification.git)
 
 API ini dibuat dengan Flask dan menyediakan endpoint `/predict` yang menerima teks puisi dan mengembalikan prediksi penyairnya.
-
----
-
-## Screenshot
-
-Berikut adalah contoh tampilan aplikasi Flutter ini:
-
-![Screenshot 1](https://example.com/screenshots/screenshot1.png)  
-_Halaman utama input teks dan tombol analisa_
-
-![Screenshot 2](https://example.com/screenshots/screenshot2.png)  
-_Hasil prediksi nama penyair setelah analisa_
-
-![Screenshot 3](https://example.com/screenshots/screenshot3.png)  
-_Animasi loading shimmer saat proses prediksi berjalan_
 
 ---
 
@@ -57,11 +42,3 @@ _Animasi loading shimmer saat proses prediksi berjalan_
 3. Masukkan baris puisi di aplikasi dan tekan tombol "Analyze Text" untuk melihat prediksi.
 
 ---
-
-## Lisensi
-
-Proyek ini menggunakan lisensi MIT. Silakan gunakan dan modifikasi sesuai kebutuhan.
-
----
-
-Jika ada pertanyaan atau ingin berkontribusi, jangan ragu untuk menghubungi saya.
